@@ -1,0 +1,598 @@
+@media only screen and (max-width: 1025px) {
+
+   .three-logos .inner-container {
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+      background: #25559f;
+      border-radius: 25px;
+      padding: 30px 45px;
+      position: relative;
+   }
+
+   .retained-states.container {
+      max-width: 1000px;
+   }
+
+   .retained-states .countries-flags {
+      grid-template-columns: 33% 33% 33%;
+      margin-right: 0;
+   }
+
+   .left--block.scenarios--result {
+      padding-top: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+
+   .scenarios--result h2 {
+      font-size: 40px !important;
+      line-height: 1.4em;
+   }
+
+   .scenarios--result .scene--list--block .scene--list {
+      gap: 15px 0;
+   }
+
+   .scenarios--result .scene--list--block .title .title--1 {
+      font-size: 28px;
+      line-height: 1.6em;
+   }
+
+   .scenarios--result .scene--list--block .title .title--2 {
+      font-size: 24px;
+      line-height: 1.6em;
+   }
+
+}
+
+@media only screen and (max-width: 980px) {
+   .three-logos .inner-container {
+      max-width: 800px;
+      padding: 30px 30px;
+   }
+
+   .inner-container .remocan {
+      display: grid;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+      text-align: center;
+      max-width: 800px
+   }
+
+   .three-logos .left-arrow::before {
+      width: 300px;
+      height: 120px;
+   }
+
+   .three-logos .right-arrow::before {
+      width: 300px;
+      height: 120px;
+   }
+
+   .retained-states.container {
+      max-width: 800px;
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+   }
+
+   .retained-states h2 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 62.448px;
+      text-align: center;
+   }
+
+   .retained-states .countries-flags .county-flag img {
+      z-index: 1;
+      position: relative;
+      margin: auto;
+      max-width: 200px;
+      width: 100%;
+   }
+
+   .scenario--01--hero-banner-bg .biden--img:before {
+      content: "";
+      width: 250px;
+      height: 330px;
+   }
+}
+
+@media screen and (max-width: 820px) {
+   .main.scenario--01--hero-banner-bg .herp--para {
+      width: 100%;
+      font-size: 18px;
+      line-height: 38px;
+      font-weight: 300;
+      margin: auto;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .three-logos {
+      padding: 0px 30px 0px 30px;
+      margin-top: -70px;
+   }
+
+   .three-logos .left-arrow::before,
+   .three-logos .right-arrow::before {
+      width: 260px;
+      height: 100px;
+   }
+
+   .three-logos .inner-container {
+      max-width: 750px;
+      padding: 30px 15px;
+   }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    .primary-button {
+        padding: 12px 22px;
+    }
+    .scenarios--result .scene--list--block .scene--list .scene--list--title {
+      font-size: 14px;
+      line-height: normal;
+   }
+   .main.scenario--01--hero-banner-bg h1 {
+      font-size: 40px;
+      line-height: 1.4em;
+      padding-bottom: 15px;
+      max-width: 280px;
+      width: 100%;
+   }
+
+   .main.scenario--01--hero-banner-bg .herp--para {
+      width: 100%;
+      font-size: 18px;
+      line-height: 1.6em;
+      font-weight: 300;
+      margin: auto;
+   }
+
+   .scenario--01--hero-banner-bg .biden--img:before {
+      width: 300px;
+      height: 550px;
+   }
+
+   .three-logos {
+      padding: 0px 15px 0px 15px;
+      margin-top: -70px;
+   }
+
+   .three-logos .inner-container {
+      max-width: 520px;
+      padding: 15px 15px;
+   }
+
+   .three-logos .left-arrow::before,
+   .three-logos .right-arrow::before {
+      width: 220px;
+      height: 60px;
+   }
+
+   .inner-container .remocan img {
+      width: 80px;
+   }
+
+   .inner-container .remocan .democrat h3 {
+      padding-top: 15px;
+      font-size: 22px;
+      line-height: 1.4em;
+   }
+
+   .retained-states h2 {
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 1.4em;
+      text-align: center;
+   }
+
+   .retained-states p {
+      font-size: 12px;
+   }
+
+   .countries-flags {
+      padding-top: 15px;
+      padding-bottom: 15px;
+   }
+
+   .retained-states .countries-flags .county-flag img {
+      z-index: 1;
+      position: relative;
+      margin: auto;
+      max-width: 120px;
+      width: 100%;
+   }
+
+   .retained-states .countries-flags {
+      background-size: 52% 16%;
+   }
+
+   .retained-states .countries-flags .county-flag h3 {
+      font-size: 24px;
+      font-weight: 300;
+      text-align: center;
+      padding-top: 15px;
+   }
+
+   .retained-states .countries-flags .county-flag h3 span {
+      font-size: 18px;
+      font-weight: 700;
+   }
+
+   .scenarios--result h2 {
+      font-size: 30px !important;
+      line-height: 1.4em;
+   }
+
+   .scenarios--result .scene--list--block .title {
+      display: grid;
+      grid-template-columns: 35% 65%;
+      padding-bottom: 15px;
+      margin-top: 30px;
+   }
+
+   .scenarios--result .scene--list--block .scene--list {
+      display: grid;
+      grid-template-columns: 35% 65%;
+      gap: 15px 0;
+   }
+
+   .scenarios--result h2 {
+      font-size: 18px !important;
+      line-height: 1.4em;
+   }
+
+   .scenarios--result .scene--list--block .title .title--1 {
+      font-size: 18px;
+      line-height: 1.6em;
+   }
+
+   .scenarios--result .scene--list--block .title .title--2 {
+      font-size: 18px;
+      line-height: 1.6em;
+   }
+
+
+}
+
+@media screen and (max-width: 440px) {
+   .main.scenario--01--hero-banner-bg h1 {
+      font-size: 30px;
+   }
+
+   .main.scenario--01--hero-banner-bg .herp--para {
+      width: 100%;
+      font-size: 14px;
+      line-height: 1.6em;
+      font-weight: 300;
+      margin: auto;
+   }
+
+   .scenario--01--hero-banner-bg .biden--img:before {
+      width: 200px;
+      height: 490px;
+   }
+
+   .three-logos {
+      padding: 0px 15px 0px 15px;
+      margin-top: -30px;
+   }
+
+   .inner-container .remocan {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      text-align: center;
+      max-width: 400px;
+   }
+
+   .inner-container .remocan img {
+      width: 60px;
+   }
+
+   .inner-container .remocan .democrat h3 {
+      color: #fff;
+      padding-top: 15px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.4em;
+   }
+
+   .retained-states h2 {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.4em;
+      text-align: center;
+   }
+
+   .retained-states p {
+      font-size: 16px;
+   }
+
+   .retained-states .countries-flags .county-flag img {
+      z-index: 1;
+      position: relative;
+      margin: auto;
+      max-width: 80px;
+      width: 100%;
+   }
+
+   .retained-states .countries-flags .county-flag h3 {
+      font-size: 18px;
+      font-weight: 300;
+      text-align: center;
+      padding-top: 15px;
+   }
+
+   .retained-states .countries-flags .county-flag h3 span {
+      font-size: 14px;
+      font-weight: 700;
+   }
+
+   .scenarios--result h2 {
+      font-size: 18px !important;
+      line-height: 1.4em;
+   }
+   
+   .disclaimer-wrapper {
+        text-align: center;
+        padding: 0px;
+        font-size: 13px;
+    }
+    
+    .disclaimer-wrapper p:first-child {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    
+    .disclaimer-wrapper .scenerio-result-four-btns {
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        gap: 0px;
+        justify-content: center;
+    }
+    
+    .pb-95 {
+    padding-bottom: 50px;
+}
+    .not-interested-btn {
+    padding: 14px 25px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+
+   .scenarios--result .scene--list--block .title {
+      display: grid;
+      grid-template-columns: 35% 65%;
+      padding-bottom: 15px;
+      margin-top: 15px;
+   }
+
+   
+
+   .scenarios--result .scene--list--block .scene--list .percent .progress {
+      width: 100%;
+      min-height: 10px;
+      border-radius: 0;
+      background: #808080;
+   }
+
+   .scenarios--result .scene--list--block .scene--list .percent .vote--count {
+      color: #000;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.6em;
+      margin-left: 10px;
+      flex: 0 0 100px;
+   }
+
+}
+
+@media screen and (max-width: 415px) {
+   .scenario--01--hero-banner-bg .biden--img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      top: 0;
+   }
+
+   .main.scenario--01--hero-banner-bg {
+      background: url(/public/images/hero-banner.png);
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 80px 15px 120px 15px;
+      margin: auto;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+   }
+
+   .scenario--01--hero-banner-bg .biden--img:before {
+      width: 200px;
+      height: 400px;
+   }
+
+   .retained-states p {
+      font-size: 9px;
+   }
+
+   .retained-states.container {
+      padding-top: 15px;
+      padding-bottom: 15px;
+   }
+
+   .three-logos .left-arrow::before, .three-logos .right-arrow::before {
+      width: 140px;
+      height: 60px;
+   }
+
+   .retained-states h2 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.4em;
+      text-align: center;
+   }
+
+   .retained-states p {
+      font-size: 8px;
+   }
+}
+
+@media screen and (max-width: 380px) {
+   .main.scenario--01--hero-banner-bg .herp--para {
+      width: 100%;
+      font-size: 13px;
+      line-height: 1.6em;
+      font-weight: 300;
+      margin: auto;
+   }
+
+   .retained-states p {
+      font-size: 14px;
+   }
+
+   .three-logos .left-arrow::before, .three-logos .right-arrow::before {
+      width: 120px;
+      height: 50px;
+   }
+
+   .three-logos {
+      padding: 0;
+      margin-top: -30px;
+   }
+
+   .three-logos .inner-container {
+      border-radius: 0px;
+   }
+
+   .retained-states .countries-flags .county-flag h3 {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: center;
+      padding-top: 15px;
+   }
+
+   .retained-states .countries-flags .county-flag h3 span {
+      font-size: 12px;
+      font-weight: 700;
+   }
+
+   .scenarios--result .scene--list--block .scene--list .percent .vote--count {
+      flex: 0 0 50px;
+   }
+}
+
+@media screen and (max-width: 330px) {
+
+   .scenarios--result h2 {
+      font-size: 16px !important;
+      line-height: 1.4em;
+   }
+
+   .scenarios--result .scene--list--block .title .title--2 {
+      font-size: 14px;
+      line-height: 1.6em;
+   }
+
+   .scenarios--result .scene--list--block .title .title--1 {
+      font-size: 14px;
+      line-height: 1.6em;
+   }
+
+   .scenarios--result .scene--list--block .scene--list .scene--list--title {
+      font-size: 14px;
+   }
+
+   .scenarios--result .scene--list--block .scene--list .percent .vote--count {
+      color: #000;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.6em;
+      margin-left: 5px;
+      flex: 0 0 50px;
+   }
+
+}
+
+@media screen and (max-width: 285px) {
+
+   .main.scenario--01--hero-banner-bg {
+      background: url(/public/images/hero-banner.png);
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 80px 15px 80px 15px;
+      margin: auto;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+   }
+
+   .scenario--01--hero-banner-bg .biden--img:before {
+      width: 100px;
+      height: 280px;
+   }
+
+   .main.scenario--01--hero-banner-bg .herp--para {
+      width: 100%;
+      font-size: 10px;
+      line-height: 1.6em;
+      font-weight: 300;
+      margin: auto;
+   }
+
+   .inner-container .remocan .democrat h3 {
+      color: #fff;
+      padding-top: 5px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4em;
+   }
+
+   .three-logos .left-arrow::before, .three-logos .right-arrow::before {
+      width: 110px;
+      height: 30px;
+   }
+
+   .retained-states h2 {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4em;
+      text-align: center;
+   }
+
+   .retained-states p {
+      font-size: 12px;
+   }
+
+   .retained-states .countries-flags {
+      background-size: 52% 16%;
+      background: none;
+   }
+
+   .retained-states .countries-flags {
+      grid-template-columns: 50% 50%;
+      margin-right: 0;
+   }
+
+   .left--block.scenarios--result {
+      padding-top: 30px;
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+
+   .scenarios--result .scene--list--block .title .title--2 {
+      font-size: 12px;
+      line-height: 1.6em;
+   }
+}

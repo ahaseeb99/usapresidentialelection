@@ -1,0 +1,629 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+/* TITLE SET UP */
+h1 {
+  font-family: "Calibri", Times, serif;
+  text-align: center;
+}
+
+#map-container {
+  position: relative;
+}
+
+/* BAR */
+#legend-container {
+  position: absolute;
+  top: 70px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  transform: translateX(-50%); /* Center the legend horizontally */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 2px;
+}
+
+.legend-item {
+  font-size: 15px;
+  align-items: center;
+  margin-bottom: 2px;
+  justify-content: center;
+  text-align: center;
+
+}
+.legend-bar-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.legend-bar {
+  height: 20px;
+  width: 10px;
+  border-radius: 1px;
+  
+}
+.legend-label {
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center; /* Add this line for horizontal centering */
+  margin-right: 4px;
+  margin-left: 4px;
+
+}
+/* Style for the colon between party name and votes */
+.legend-colon {
+font-size: 12px;
+align-items: center;
+justify-content: center;
+}
+
+@media (min-width:320px) /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 12px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 15px; /* Adjust as needed for smaller size */
+    height: 15px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 5px;
+  max-width: 70px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 29px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 8px;
+}
+.legend-item {
+  font-size: 8px;
+  
+}
+
+}
+
+@media (min-width:480px)   /* smartphones, Android phones, landscape iPhone */
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 14px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 16px; /* Adjust as needed for smaller size */
+    height: 16px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 7px;
+  max-width: 80px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 35px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 10px;
+}
+.legend-item {
+  font-size: 10px;
+  
+}
+
+}
+
+@media (min-width:600px)  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 16px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 17px; /* Adjust as needed for smaller size */
+    height: 17px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 7px;
+  max-width: 90px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 39px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 11px;
+}
+.legend-item {
+  font-size: 11px;
+  
+}
+
+}
+@media (min-width:801px)   /* tablet, landscape iPad, lo-res laptops ands desktops */
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 20px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 19px; /* Adjust as needed for smaller size */
+    height: 19px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 9px;
+  max-width: 105px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 49px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 3px;
+
+}
+.legend-label {
+  font-size: 13px;
+}
+.legend-item {
+  font-size: 13px;
+  
+}
+
+}
+@media (min-width:1025px) /* big landscape tablets, laptops, and desktops */
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 26px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 24px; /* Adjust as needed for smaller size */
+    height: 24px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 12px;
+  max-width: 120px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 59px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 3px;
+
+}
+.legend-label {
+  font-size: 15px;
+}
+.legend-item {
+  font-size: 15px;
+  
+}
+
+}
+@media (min-width:1281px) /* hi-res laptops and desktops */
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 30px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 30px; /* Adjust as needed for smaller size */
+    height: 30px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 16px;
+  max-width: 140px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 79px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 4px;
+
+}
+.legend-label {
+  font-size: 18px;
+}
+.legend-item {
+  font-size: 18px;
+  
+}
+
+}
+
+@media (min-width:280px)  and (orientation: portrait) /* for samsung fold */
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 12px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 11px; /* Adjust as needed for smaller size */
+    height: 11px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 7px;
+  max-width: 80px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 20px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 9px;
+}
+.legend-item {
+  font-size: 9px;
+  
+}
+
+}
+
+@media (min-width:540px) and (orientation: portrait) /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 16px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 17px; /* Adjust as needed for smaller size */
+    height: 17px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 7px;
+  max-width: 90px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 42px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 11px;
+}
+.legend-item {
+  font-size: 11px;
+  
+}
+
+}
+@media (min-width:412px) and (orientation: portrait) /* S12 Ultra */ 
+{
+  
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 7px;
+  max-width: 90px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 36px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+
+}
+
+@media (min-width:320px) and (orientation: portrait) /* S12 Ultra */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 16px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 17px; /* Adjust as needed for smaller size */
+    height: 17px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 7px;
+  max-width: 90px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 37px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 11px;
+}
+.legend-item {
+  font-size: 11px;
+  
+}
+}
+@media (min-width:375px) and (orientation: portrait) /* S12 Ultra */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 16px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 17px; /* Adjust as needed for smaller size */
+    height: 17px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 7px;
+  max-width: 90px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 33px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 11px;
+}
+.legend-item {
+  font-size: 11px;
+  
+}
+}
+@media (min-width: 375px) and (orientation: portrait) /* S12 Ultra */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 12px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 11px; /* Adjust as needed for smaller size */
+    height: 11px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 5px;
+  max-width: 70px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 2px;
+  
+}
+#legend-container {
+  top: 22px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 1px;
+
+}
+.legend-label {
+  font-size: 8px;
+}
+.legend-item {
+  font-size: 8px;
+  
+}
+}
+
+@media (min-width: 240px) and (orientation: portrait) /* Jio Mobile */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 9px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 9px; /* Adjust as needed for smaller size */
+    height: 9px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 5px;
+  max-width: 60px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 18px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 6px;
+}
+.legend-item {
+  font-size: 6px;
+  
+}
+}
+@media (min-width: 600px) and (orientation: portrait) /* Nexus 7 */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 20px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 12px; /* Adjust as needed for smaller size */
+    height: 12px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 8px;
+  max-width: 110px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 40px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 18px;
+}
+.legend-item {
+  font-size: 18px;
+  
+}
+}
+@media (min-width: 412px) and (orientation: portrait) /* Nexus 6P */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 17px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 16px; /* Adjust as needed for smaller size */
+    height: 16px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 8px;
+  max-width: 90px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 33px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 11px;
+}
+.legend-item {
+  font-size: 11px;
+  
+}
+}
+@media (min-width: 360px) and (orientation: portrait) /* Jio Mobile */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 14px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 14px; /* Adjust as needed for smaller size */
+    height: 14px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 8px;
+  max-width: 80px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 28px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 9px;
+}
+.legend-item {
+  font-size: 9px;
+  
+}
+}
+
+@media (min-width: 800px) and (orientation: portrait) /* Jio Mobile */ 
+{
+  h1 {
+    font-family: "Calibri", Times, serif;
+    font-size: 22px; 
+    text-align: center; /* Center the text horizontally */
+  }
+  h1 img {
+    width: 22px; /* Adjust as needed for smaller size */
+    height: 22px; /* Adjust as needed for smaller size */
+  }
+
+/* Adjustments for mobile screens inside the media query */
+.legend-bar {
+  height: 11px;
+  max-width: 130px; /* Adjust the width as needed to fit within the smaller screen */
+  border-radius: 1px;
+  
+}
+#legend-container {
+  top: 43px; /* Adjust the top value as needed */
+  left: 50%; /* Center the legend horizontally */
+  padding: 2px;
+
+}
+.legend-label {
+  font-size: 17px;
+}
+.legend-item {
+  font-size: 17px;
+  
+}
+}
+
+
+
+
+
+

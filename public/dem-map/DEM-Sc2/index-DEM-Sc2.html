@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA Presidential Election</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="mapdata-DEM-Sc2.js"></script>
+    <script src="usmap.js"></script>
+  </head>
+
+  <body>
+    <h1>2024 USA Presidential Election, <img src='public/map_images/D.png'/> Democrats Scenario 2 </h1>
+    <!-- Map and Circles Container -->
+    <div id="map-container"></div>
+    <div id="map"></div>
+
+    <!-- Legend Container -->
+    <div id="legend-container"></div>
+
+    <!-- Add the existing JavaScript code for creating the legend -->
+    <script>
+function createLegend() {
+    var legendContainer = document.getElementById('legend-container');
+
+    // Reverse the order of creating legend items
+    var legendItemDemocrats = createLegendItem('Democrats:', '#033A90', democratsVotes);
+    var legendItemRepublicans = createLegendItem('Republicans:', '#DC0B10', republicansVotes);
+
+    legendContainer.appendChild(legendItemDemocrats);
+    legendContainer.appendChild(legendItemRepublicans);
+  }
+
+  // Helper function to create a legend item
+  function createLegendItem(party, color, votes) {
+    var legendItem = document.createElement('div');
+    legendItem.className = 'legend-item';
+
+
+
+    var legendBarContainer = document.createElement('div');
+    legendBarContainer.className = 'legend-bar-container';
+
+    var legendBar = document.createElement('div');
+    legendBar.className = 'legend-bar';
+    legendBar.style.backgroundColor = color;
+
+    // Adjusted the scaling factor for a smaller size
+    var scalingFactor = 0.8;
+    legendBar.style.width = votes * scalingFactor + 'px';
+
+    legendBarContainer.appendChild(legendBar);
+
+    // Add connector element
+    var connector = document.createElement('div');
+    connector.className = 'legend-connector';
+    legendBarContainer.appendChild(connector);
+
+    var label = document.createElement('span');
+    label.className = 'legend-label';
+    label.textContent = party;
+
+    var text = document.createTextNode(votes);
+    legendItem.appendChild(legendBarContainer);
+    legendItem.appendChild(label);
+    legendItem.appendChild(text);
+
+    return legendItem;
+      }
+
+      // Call the createLegend function to display the legend
+      createLegend();
+    </script>
+  </body>
+</html>
+
+
+
+
+

@@ -1,0 +1,473 @@
+/*
+
+Abdul Haseeb Q.
+twistyBRAT 鬼 ];)
+a.haseeb199@gmail.com
+https://probdone.com
+
+Yo! Just a devious boring typical guy skilled Front End Development | Web Development & Design | HTML & CSS | SASS | Bootstrap | JavaScript | WordPress Development | Googling | Tech Enthusiast | Learning Enthusiast &  likes Anime + Manga + Comics + Gaming + Weird things and a lot of Music 🙀👽
+
+https://www.facebook.com/twistyBRATVA
+https://www.linkedin.com/in/abdul-haseeb-qamar
+https://www.instagram.com/abdul_haseeb_qamar
+
+*/
+
+/*
+
+ ____  ____  ____  ____  ____  ____  ____  ____
+||P ||||r ||||o ||||b ||||d ||||o ||||n ||||e ||
+||__||||__||||__||||__||||__||||__||||__||||__||
+|/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\|
+
+
+ ______   ______   ______   ______   _____    ______   ______   ______
+| |  | \ | |  | \ / |  | \ | |  | \ | | \ \  / |  | \ | |  \ \ | |
+| |__|_/ | |__| | | |  | | | |--| < | |  | | | |  | | | |  | | | |----
+|_|      |_|  \_\ \_|__|_/ |_|__|_/ |_|_/_/  \_|__|_/ |_|  |_| |_|____
+
+
+.------..------..------..------..------..------..------..------.
+|P.--. ||R.--. ||O.--. ||B.--. ||D.--. ||O.--. ||N.--. ||E.--. |
+| :/\: || :(): || :/\: || :(): || :/\: || :/\: || :(): || (\/) |
+| (__) || ()() || :\/: || ()() || (__) || :\/: || ()() || :\/: |
+| '--'P|| '--'R|| '--'O|| '--'B|| '--'D|| '--'O|| '--'N|| '--'E|
+`------'`------'`------'`------'`------'`------'`------'`------'
+
+ ______                 _          _
+(_____ \               | |        | |
+ _____) )  ____   ___  | | _    _ | |  ___   ____    ____
+|  ____/  / ___) / _ \ | || \  / || | / _ \ |  _ \  / _  )
+| |      | |    | |_| || |_) )( (_| || |_| || | | |( (/ /
+|_|      |_|     \___/ |____/  \____| \___/ |_| |_| \____)
+
+*/
+
+
+
+.main.scenario--hero-banner-bg {
+   background: url("/public/images/hero-banner.png");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 80px 45px 120px 45px;
+   margin: auto;
+   text-align: center;
+   position: relative;
+}
+
+.main.scenario--hero-banner-bg h1 {
+   font-size: 64px;
+   margin: auto;
+   width: 716px;
+   font-weight: 300;
+   line-height: 83.264px;
+   color: #fff;
+   padding-bottom: 30px;
+}
+
+.main.scenario--hero-banner-bg .remocan {
+   display: flex;
+   justify-content: center;
+   gap: 150px;
+}
+
+.main.scenario--hero-banner-bg .remocan img {
+   width: 150px;
+}
+
+.main.scenario--hero-banner-bg .remocan h2 {
+   color: #fff;
+   font-size: 64px;
+   font-weight: 700;
+   padding-top: 50px;
+}
+
+.scenario--hero-banner-bg .biden--img {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   top: -88px;
+}
+
+.scenario--hero-banner-bg .biden--img:before {
+   content: "";
+   width: 444px;
+   height: 617px;
+   background: url("/public/images/US.png");
+   background-size: contain;
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   display: block;
+}
+
+.inner-container .remocan {
+   display: grid;
+   grid-template-columns: 33.33% 33.33% 33.33%;
+   text-align: center;
+   max-width: 1200px;
+   width: 100%;
+   margin: auto;
+   position: relative;
+   z-index: 1;
+}
+
+.inner-container .remocan img {
+   width: 130px;
+}
+
+.inner-container .remocan h2 {
+   color: #fff;
+   font-size: 64px;
+   font-weight: 700;
+   padding-top: 50px;
+}
+
+.scenario--hero-banner-bg .remocan .democrat {
+   cursor: pointer;
+   transform: scale(1);
+   transition: 0.3s ease-in-out all;
+}
+
+.scenario--hero-banner-bg .remocan .democrat:hover {
+   transform: scale(1.1);
+   transition: 0.3s ease-in-out all;
+}
+
+.inner-container .remocan .democrat h3 {
+   color: #fff;
+   padding-top: 20px;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 31.224px;
+}
+
+.dem--scen--01 {
+   display: grid;
+   grid-template-columns: 75% 25%;
+
+}
+
+.advert--block {
+   display: grid;
+   grid-template-columns: 100%;
+}
+
+.advert--block .block--title {
+   padding: 20px 15px;
+   /* background: #25559F; */
+   color: #fff;
+}
+
+.advert--block .advert--1.rep,
+.advert--block .advert--2.rep {
+   border: 10px solid #dc0b10;
+}
+
+.advert--block .advert--1.dem,
+.advert--block .advert--2.dem {
+   border: 10px solid #25559F;
+}
+
+.advert--block .advert--1 img,
+.advert--block .advert--2 img {
+   width: 100%;
+   height: 150px;
+}
+
+.advert--block .block--title h3 {
+   color: #FFF;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 36.428px;
+}
+
+.map--div--block--dem--scen--01 {
+   background: url("/public/images/vote-watermark.png");
+   background-repeat: no-repeat;
+   background-position: 98% 100%;
+}
+
+.map--div--block--dem--scen--01 h2 {
+   color: #232323;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 46.836px;
+}
+
+.progress--bar--div {
+   max-width: 1140px;
+   width: 100%;
+}
+
+.progress--bar--div .title--progress {
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+.progress--bar--div .right--block {
+   text-align: right;
+   color: #dc0b10;
+   font-family: Poppins;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 54.4px;
+}
+
+.progress--bar--div .left--block {
+   color: #25559F;
+   font-family: Poppins;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 54.4px;
+}
+
+.progress--bar--div .progress {
+   min-height: 44px;
+   background: #dc0b10;
+   border-radius: 0;
+}
+
+.progress--bar--div .progress .progress-bar {
+   background-color: #25559F;
+}
+
+.progress--bar--block {
+   position: relative;
+   padding-bottom: 12px;
+}
+
+.progress--bar--block #legend-container {
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.progress--bar--block #legend-container .legend-item:nth-child(1),
+.progress--bar--block #legend-container .legend-item:nth-child(1) .legend-label{
+   color: #25559F;
+   text-align: left;
+}
+
+.progress--bar--block #legend-container .legend-item:nth-child(2),
+.progress--bar--block #legend-container .legend-item:nth-child(2) .legend-label {
+   color: #dc0b10;
+   text-align: right;
+}
+.progress--bar--block.toss--up--state #legend-container .legend-item:nth-child(2),
+.progress--bar--block.toss--up--state #legend-container .legend-item:nth-child(2) .legend-label {
+   color: #808080;
+   text-align: center;
+}
+
+.progress--bar--block #legend-container .legend-item:nth-child(3),
+.progress--bar--block #legend-container .legend-item:nth-child(3) .legend-label {
+   color: #dc0b10;
+   text-align: right;
+}
+
+.progress--bar--block.toss--up--state #legend-container .legend-item:nth-child(3),
+.progress--bar--block.toss--up--state #legend-container .legend-item:nth-child(3) .legend-label {
+   color: #dc0b10;
+   text-align: right;
+}
+
+.progress--bar--block .legend-item {
+   font-family: Poppins;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 54.4px;
+   width: 100%;
+}
+
+.progress--bar--block .legend-bar-container {
+   /* display: flex;
+   flex-direction: row-reverse; */
+   width: 100%;
+}
+
+.progress--bar--block #legend-container .legend-item:nth-child(1) .legend-bar-container .legend-bar {
+   background-color: #25559F !important;
+}
+
+.progress--bar--block #legend-container .legend-item:nth-child(2) .legend-bar-container .legend-bar {
+   background-color: #dc0b10 !important;
+}
+
+.progress--bar--block.toss--up--state #legend-container .legend-item:nth-child(2) .legend-bar-container .legend-bar {
+   background-color: #808080 !important;
+}
+
+.progress--bar--block.toss--up--state #legend-container .legend-item:nth-child(3) .legend-bar-container .legend-bar {
+   background-color: #dc0b10 !important;
+}
+
+.progress--bar--block .legend-bar {
+   min-height: 44px;
+   width: 100% !important;
+}
+
+.progress--bar--block .legend-label {
+   /* font-size: 15px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-right: 4px;
+   margin-left: 4px; */
+   /* color: #25559F; */
+   font-family: Poppins;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 54.4px;
+}
+
+/* .progress--bar--div .progress .progress-bar:before {
+   content: '';
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   color: #000;
+   z-index: 1;
+   background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2325559F%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E);
+   width: 15px;
+   height: 10px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+} */
+
+.counter--dropdown {
+   width: 90px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+
+.progress--bar--div .right--block {
+   /* display: grid;
+   grid-template-columns: 80% 20%; */
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+.progress--bar--div .left--block {
+   /* display: grid;
+   grid-template-columns: 80% 20%; */
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+
+.counter--dropdown select {
+   /* color: #dc0b10; */
+   font-family: Poppins;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 54.4px;
+   padding: 0;
+   border: 0;
+   border-radius: 0;
+   text-align: left;
+}
+
+.right--block .counter--dropdown select {
+   background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23B50027%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.left--block .counter--dropdown select {
+   background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2325559F%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.right--block .counter--dropdown select,
+.left--block .counter--dropdown select {
+   background-repeat: no-repeat;
+   background-position: right 0.7rem top 50%;
+   background-size: 0.65rem auto;
+   appearance: none;
+}
+
+
+.counter--dropdown select:focus {
+   box-shadow: none;
+}
+
+.result--notice {
+   text-align: center;
+}
+
+.result--notice h2 {
+   color: #232323;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 36px;
+   font-weight: 300;
+   line-height: 68.4px;
+   padding-top: 32px;
+}
+
+.result--notice h3 {
+   color: #232323;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 46.836px;
+}
+
+.result--next.rep {
+   padding: 16px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 80px;
+   background: #dc0b10;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-weight: 700;
+   display: inline-block;
+   margin-top: 29px;
+   transition: 0.3s ease-out all;
+}
+
+.result--next.dem {
+   padding: 10px 17px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 80px;
+   background: #25559F;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 700;
+   display: inline-block;
+   margin-top: -10px;
+   transition: 0.3s ease-out all;
+}
+
+.result--next.rep:hover {
+   background: #25559F;
+   color: #FFF;
+   transition: 0.3s ease-in all;
+}
+
+.result--next.dem:hover {
+   background: #dc0b10;
+   color: #FFF;
+   transition: 0.3s ease-in all;
+}
